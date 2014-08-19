@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Teacher assigning course</title>
+        
+    </head>
+        <body>
+            <div>
+                <form method="post" action="teacher.php">
+                   
+                        Name:<input type="text" name="name"><br/>
+                        Courses:
+                               <select name="courses" multiple>
+                              <option value="laravel">Laravel</option>
+                              <option value="php">PHP</option>
+                              <option value="css">CSS</option>
+                              <option value="html">HTML</option>
+                              <option value="asp">ASP</option>
+                            </select>
+                    <input type="submit" value="Submit" >
+                </form>
+           </div>
+        </body>
+</html>
